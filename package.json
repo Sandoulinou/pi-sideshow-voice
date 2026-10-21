@@ -1,0 +1,13 @@
+{
+  "name": "pi-sideshow-voice",
+  "version": "0.1.0",
+  "description": "Delivers sideshow push-to-talk transcripts into Pi via pi.sendUserMessage — the same path pi-voicekit auto-submit uses",
+  "license": "MIT",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions/sideshow-voice.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
